@@ -1,0 +1,145 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration:  none;}
+
+#wrap {
+    margin: 100%;
+    padding: 0 auto;
+}
+
+#header {
+    text-align: center;
+    background-color: rgb(241,241,241);
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+#header .logo {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#header .login {
+    float: right;
+    color: black;
+    padding: 0 10px;
+}
+
+#header .Top-menu {
+    display: flex;
+    justify-content: center;
+    /* align-items: center;  */
+    color: black; 
+}
+/* #header .nav {
+    text-align: center;
+}
+
+#header .nav .Top-menu {
+    display: inline-block;
+    display: inline;
+}
+
+#header .nav .Top-menu > li {
+    margin: -2.9px;
+    float: left;
+}  */
+
+
+#header .Top-menu > li {
+    width: 15%;
+    text-align: center;
+    line-height: 37px;
+    /* background-color: rgba(90, 114, 98, 0.0); */
+}
+
+#header .Top-menu a {
+    color: black;
+    font-size: 20px;
+}                   
+
+#header .sub > li {
+    background-color: rgba(90, 114, 98);
+}
+
+#header .sub > li a {
+    font-size: 15px;
+}
+
+#header .sub {
+    height: 0;
+    overflow: hidden;
+}
+
+#header .Top-menu > li:hover {
+    /* background-color: rgba(90, 114, 98, 0.5); */
+    transition-duration: 0.5s;
+}
+
+#header .Top-menu > li:hover .sub {
+    height: 200px;
+    transition-duration: 1s;
+}
+/* 상단 메뉴바 끝 */
+
+#banner {
+    text-align: center;
+    border: 2px solid gray;
+    width: 60%;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+#rr {
+    width: 500px;
+    height: 200px;
+    margin-left: 20%;
+    margin-top: 70px;
+    float: left;
+    border: 2px solid gray;
+
+}
+
+#rr .rrs {
+    /* margin-bottom: 10px; */
+    margin-left: 30px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#rr .border {
+    border-top: 2px solid gray
+}
+
+#rr .ggm {
+    margin-top: 10px;
+}
+ #rr .ggm li {
+    list-style: circle;
+    margin-left: 30px; 
+}
+
+#img {
+    float: right;
+    margin-right: 20%;
+    margin-top: 70px;
+    border: 2px solid gray;
+    width: 150px;
+    height: 200px;
+}
+
+#im {
+    float: right;
+    margin-right: 30px;
+    margin-top: 70px;
+    border: 2px solid gray;
+    width: 150px;
+    height: 200px; 
+}
+
+#rr li a {
+    color: black;
+}
